@@ -15,7 +15,6 @@ O simbolo apos a classe significa que:
 .paragrafo *{
     background-color: blue;
 }
-*/
 
 body{
     color: goldenrod;
@@ -26,5 +25,24 @@ body{
 }
 #texto-com-outra-cor{
     color: blue;
+    
+}
+*/
+header{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
 
+footer{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    bottom: 0;
 }
