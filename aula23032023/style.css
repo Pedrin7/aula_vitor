@@ -1,0 +1,30 @@
+/*
+.texto{
+    background-color: red;
+    color: black;
+}
+
+
+h1.texto{
+    background-color: purple;
+}
+*/
+
+/*
+O simbolo apos a classe significa que: 
+.paragrafo *{
+    background-color: blue;
+}
+*/
+
+body{
+    color: goldenrod;
+}
+
+.texto-com-background,#texto-com-outra-cor {
+    background-color: yellow;
+}
+#texto-com-outra-cor{
+    color: blue;
+
+}
