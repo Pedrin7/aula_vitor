@@ -4,19 +4,18 @@ body{
     padding: 0;
 }
 
-header {
-    background-color: white;
-    display: grid;
-    height: 40px;
-    border: solid 1px black;
+header{
 
+    border: 1px solid black;
 }
 
-header>label{
-    grid-template-rows: 1fr ;
-    grid-template-columns: 1fr;
-}
+
 header>button{
-    grid-template-rows: 1fr ;
-    grid-template-columns: 1fr;
+    float: right;
+}
+
+.container{
+
+    display: grid;
+    
 }
