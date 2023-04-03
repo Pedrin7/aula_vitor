@@ -1,21 +1,28 @@
 body{
-
+    display: grid;
     margin: 0;
     padding: 0;
 }
 
 header{
-
     border: 1px solid black;
+    height: 25px;
+    align-items: center;
+}
+
+header>label{
+    margin-top: 5px;
+    float: left;
 }
 
 
 header>button{
     float: right;
+    border: none;
+    margin-top: 5px;
 }
 
 .container{
-
-    display: grid;
-    
+    width: 100vh;
+    border: 1px solid black ;
 }
