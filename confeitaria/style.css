@@ -32,22 +32,27 @@ header>button{
 .container{
     display: flex;
     justify-content: space-between;
+    min-height: 100vh;
 }
 
 .menu{
     background-color: #f2d0e0;
-    width: 30%;
+    width: 20%;
 }
 
 .menu_produtos{
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+
 }
+
 
 .elementos_menu{
     display: flex;
     justify-content: space-between;
 }
+
 
 .img_menu{
     height:30px;
@@ -56,12 +61,36 @@ header>button{
 }
 
 .content{
-    width: 70%;
+    width: 80%;
+    padding: 10px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px darkgray solid;
+    border: outset;
+    min-height: 30%;
+    padding-top: 20px;
+}
+
+.card1>h2{
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card1>p{
+    text-align: center;
 }
 
 .img_bolo{
-    height: 100px ;
-    width: 100px ;
+    height: 180px ;
+    width: 180px ;
 }
 
 footer{
