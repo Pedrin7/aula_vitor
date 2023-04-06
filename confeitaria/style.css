@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: mediumvioletred;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header>div{
+    display: flex;
+    align-items: center;
+}
+
+header>div>img{
+    width: 20px;
+    padding-right: 15px;
+    padding-left: 10px;
+
+}
+
+header>button{
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: #f2d0e0;
+    width: 30%;
+}
+
+.menu_produtos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.elementos_menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_menu{
+    height:30px;
+    width:30px;
+    padding-right: 10px;
+}
+
+.content{
+    width: 70%;
+}
+
+.img_bolo{
+    height: 100px ;
+    width: 100px ;
+}
+
+footer{
+    display: flex;
+    height: 60px;
+    background-color: mediumvioletred ;
+    align-items: center;
+    justify-content: center;
+
+}
