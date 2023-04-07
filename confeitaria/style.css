@@ -4,13 +4,41 @@
     text-decoration: none;
 }
 
+
 header{
     display: flex;
     background-color: mediumvioletred;
-    height: 60px;
+    height:7vh;
     justify-content: space-between;
     align-items: center;
     
+}
+
+@media  screen and (max-width:480px){
+    header{
+        display: flex;
+        height: 40%;
+        flex-direction: column;
+        width: 100%;
+    }   
+}
+
+@media screen and(max-width:800px){
+    header{
+        display: flex;
+        height: 40%;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    header{
+        display: flex;
+        height: 40%;
+        flex-direction: column;
+        width: 100%;
+    }
 }
 
 header>div{
@@ -34,6 +62,24 @@ header>button{
     justify-content: space-between;
     min-height: 100vh;
 }
+ @media  screen and (max-width:480px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+@media screen and(max-width:800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    } 
+}
+@media screen and (max-width:1200px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    } 
+} 
 
 .menu{
     background-color: #f2d0e0;
@@ -69,6 +115,26 @@ header>button{
     gap: 10px;
 }
 
+@media  screen and (max-width:480px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }   
+}
+
+@media screen and(max-width:800px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and(max-width:1200px){
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
 .card1{
     display: flex;
     align-items: center;
@@ -95,7 +161,7 @@ header>button{
 
 footer{
     display: flex;
-    height: 60px;
+    height: 7vh;
     background-color: mediumvioletred ;
     align-items: center;
     justify-content: center;
